@@ -1,0 +1,51 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+<style>
+
+    @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+    div.cell{
+        font-family:'Lucida Grande','helvetica','sans';
+        width:800px;
+        margin-left:16% !important;
+        margin-right:auto;
+    }
+
+    div.text_cell_render{
+        font-family: 'Lucida Grande','helvetica','sans';
+        line-height: 145%;
+        font-size: 100%;
+        width:800px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .CodeMirror{
+        font-family: "Inconsolata", source-code-pro, Consolas, monospace;
+    }
+    .prompt{
+        display: None;
+    }    
+    .warning{
+        color: rgb( 240, 20, 20 )
+        }  
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
