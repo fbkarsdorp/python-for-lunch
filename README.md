@@ -20,6 +20,10 @@ where you need to replace `your-user-name` with your actual user name! Next type
 
     ipython notebook
 
+If this returns an error message such as "Command not found", please try running with:
+
+    jupyter notebook
+
 This will launch the jupyter notebook in your browser. Click on the link that says `Python for Lunch.ipynb`. 
 
 If you're unable to install or run the notebook, you can use the following static page. Note that this page doesn't allow you to execute any code:
