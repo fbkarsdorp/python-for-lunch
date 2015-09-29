@@ -6,15 +6,15 @@ If you want to follow along with the tutorial, please install the Anaconda Pytho
 
 Once installed, open a terminal (on Linux or Mac OS X) or a command prompt (on Windows) and first `cd` to the directory in which you saved the tutorial. For Mac OS X users:
 
-    cd /Users/your-user-name/Desktop/python-for-lunch
+    cd /Users/your-user-name/Desktop/python-for-lunch-master
 
 For Linux users:
 
-    cd /home/your-user-name/Desktop/python-for-lunch
+    cd /home/your-user-name/Desktop/python-for-lunch-master
 
 For Windows users:
 
-    cd c:\Users\your-user-name\Desktop\python-for-lunch
+    cd c:\Users\your-user-name\Desktop\python-for-lunch-master
 
 where you need to replace `your-user-name` with your actual user name! Next type:
 
