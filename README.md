@@ -18,7 +18,7 @@ For Windows users:
 
 where you need to replace `your-user-name` with your actual user name! Next type:
 
-    jupyter notebook
+    ipython notebook
 
 This will launch the jupyter notebook in your browser. Click on the link that says `Python for Lunch.ipynb`. 
 
